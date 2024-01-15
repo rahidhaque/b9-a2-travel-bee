@@ -1,0 +1,54 @@
+/* shared styles */
+* {
+    font-family: 'Mulish', sans-serif;
+}
+
+/* header styles  */
+
+/* navbar styles   */
+
+header {
+    padding: 50px 130px;
+}
+
+.nav-title-container {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.nav-title {
+    color: #131318;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.travel-text{
+    color: #FF5400;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav>ul {
+    display: flex;
+    list-style: none;
+    gap: 44px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+
+nav img {
+    width: 48px;
+    height: 56.008px;
+}
