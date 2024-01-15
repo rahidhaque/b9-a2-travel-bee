@@ -265,7 +265,3 @@ select {
     align-items: center;
     gap: 24px;
 }
-
-.card-3 {
-    flex: 0 0 calc(25% - 20px);
-}
