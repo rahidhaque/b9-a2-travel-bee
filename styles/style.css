@@ -153,28 +153,72 @@ select {
 /* section styles  */
 
 /* popular tours styles  */
-.popular-tours{
+.popular-tours {
     display: flex;
     justify-content: space-around;
     align-items: center;
     gap: 50px;
 }
 
-.tour-detail .section-text{
+.tour-detail .section-text {
     max-width: 577px;
     padding-top: 24px;
     margin: 0 auto;
 }
 
-.tour-list{
+.tour-list {
     padding-top: 24px;
 }
 
-.tour-list >li{
+.tour-list>li {
     padding-bottom: 16px;
     margin-left: 20px;
 }
 
-.tour-detail .btn-primary{
+.tour-detail .btn-primary {
     margin-top: 32px;
+}
+
+/* choose destination styles  */
+.choose-destination h3 {
+    text-align: center;
+    padding-bottom: 24px;
+}
+
+.choose-destination .section-text {
+    max-width: 643px;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 48px;
+}
+
+.destination-img {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 24px;
+    background-color: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%);
+}
+
+
+.maldives,
+.indonesia,
+.srilanka,
+.north-america,
+.kashmir,
+.bangladesh,
+.bandarban {
+    position: relative;
+    background-color: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%);
+}
+
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
 }
