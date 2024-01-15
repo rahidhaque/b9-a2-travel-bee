@@ -81,7 +81,7 @@ nav>ul {
     font-weight: 400;
 }
 
-.hamburger{
+.hamburger {
     display: none;
 }
 
@@ -96,6 +96,7 @@ nav img {
 }
 
 /* banner styles   */
+
 .banner-content {
     margin-top: 50px;
     margin-bottom: 100px;
@@ -372,15 +373,38 @@ select {
 
 /* mobile Styles  */
 @media screen and (max-width: 600px) {
-    .container{
+    .container {
         max-width: 600px;
     }
 
-    .nav>ul{
+    .nav>ul {
         display: none;
     }
 
-    .hamburger{
+    .hamburger {
         display: flex;
+    }
+
+    .banner-content {
+        width: auto;
+        height: auto;
+    }
+
+    .find-now {
+        display: flex;
+    }
+
+    .find-now,
+    .popular-tours,
+    .destination-img{
+        flex-direction: column;
+    }
+
+    .destination-img{
+        flex-wrap: nowrap;
+    }
+
+    .destination-img img{
+        width: 100%;
     }
 }
