@@ -407,4 +407,10 @@ select {
     .destination-img img{
         width: 100%;
     }
+
+    .service{
+        display: flex;
+        flex-direction: column;
+    }
+
 }
