@@ -197,7 +197,6 @@ select {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 24px;
-    background-color: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%);
 }
 
 
@@ -221,4 +220,52 @@ select {
     color: #FFF;
     font-size: 28px;
     font-weight: 800;
+}
+
+/* why choose us section styles  */
+.choose-us h3 {
+    text-align: center;
+    padding-bottom: 24px;
+}
+
+.choose-us .section-text {
+    max-width: 643px;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 48px;
+}
+
+.card {
+    padding-left: 32px;
+    padding-right: 55px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+
+.card-title {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    padding-top: 32px;
+    padding-bottom: 16px;
+}
+
+.card-text {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    max-width: 486px;
+}
+
+.service {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.card-3 {
+    flex: 0 0 calc(25% - 20px);
 }
