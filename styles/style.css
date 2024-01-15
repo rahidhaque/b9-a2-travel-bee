@@ -456,9 +456,11 @@ select {
 
     .find-now,
     .destination-img,
-    .newsletter {
+    .newsletter,
+    .popular-tours {
         flex-direction: column;
     }
+
 
     .nav>ul {
         display: none;
@@ -489,5 +491,33 @@ select {
 
     .destination-img img {
         width: 100%;
+    }
+
+    .service {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .newsletter {
+        width: 100%;
+    }
+
+    .savings-badge {
+        padding: 20px;
+        bottom: 130px;
+        width: 215px;
+        left: 130px;
+    }
+
+    .savings-badge h3 {
+        font-size: 21.38px;
+    }
+
+    .savings-badge p {
+        font-size: 15.854px;
+    }
+
+    .newsletter-subscribe {
+        width: 315px;
     }
 }
