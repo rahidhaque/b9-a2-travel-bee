@@ -381,6 +381,14 @@ select {
         display: none;
     }
 
+    .find-now,
+    .popular-tours,
+    .destination-img,
+    .newsletter {
+        flex-direction: column;
+    }
+
+
     .hamburger {
         display: flex;
     }
@@ -395,7 +403,7 @@ select {
         margin-bottom: 8px;
     }
 
-    .banner-text{
+    .banner-text {
         font-size: 14px;
         max-width: 304px;
     }
@@ -404,31 +412,24 @@ select {
         display: flex;
     }
 
-    .find-now,
-    .popular-tours,
-    .destination-img,
-    .newsletter{
-        flex-direction: column;
-    }
-
-    .destination-img{
+    .destination-img {
         flex-wrap: nowrap;
     }
 
-    .destination-img img{
+    .destination-img img {
         width: 100%;
     }
 
-    .service{
+    .service {
         display: flex;
         flex-direction: column;
     }
 
-    .newsletter{
+    .newsletter {
         width: 100%;
     }
 
-    .savings-badge{
+    .savings-badge {
         padding: 20px;
         bottom: 130px;
         width: 215px;
@@ -438,13 +439,55 @@ select {
     .savings-badge h3 {
         font-size: 21.38px;
     }
-    
+
     .savings-badge p {
         font-size: 15.854px;
     }
-    
-    .newsletter-subscribe{
+
+    .newsletter-subscribe {
         width: 315px;
     }
 
+}
+
+/* tablet styles  */
+
+@media screen and (min-width: 600px) and (max-width: 992px) {
+
+    .find-now,
+    .destination-img,
+    .newsletter {
+        flex-direction: column;
+    }
+
+    .nav>ul {
+        display: none;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+    .banner-content {
+        width: 100%;
+        background-repeat: no-repeat;
+    }
+
+    .banner-title {
+        font-size: 22px;
+        margin-bottom: 8px;
+    }
+
+    .banner-text {
+        font-size: 14px;
+        max-width: 304px;
+    }
+
+    .destination-img {
+        flex-wrap: nowrap;
+    }
+
+    .destination-img img {
+        width: 100%;
+    }
 }
