@@ -1,15 +1,40 @@
 /* shared styles */
 * {
+    margin: 0;
+    padding: 0;
     font-family: 'Mulish', sans-serif;
+}
+
+.container {
+    width: 81.25%;
+    max-width: 1170px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.section-text {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.btn-primary {
+    padding: 16px 34px;
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+    color: #FFF;
+    font-size: 16px;
+    cursor: pointer;
 }
 
 /* header styles  */
 
 /* navbar styles   */
 
-header {
+/* header {
     padding: 50px 130px;
-}
+} */
 
 .nav-title-container {
     display: flex;
@@ -23,7 +48,7 @@ header {
     font-weight: 800;
 }
 
-.travel-text{
+.travel-text {
     color: #FF5400;
     font-size: 36px;
     font-weight: 800;
@@ -51,4 +76,52 @@ nav a {
 nav img {
     width: 48px;
     height: 56.008px;
+}
+
+/* banner styles   */
+.banner-content {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../images/banner.png');
+    border-radius: 16px;
+    width: 1170px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    color: #FFF;
+}
+
+.banner-title {
+    font-size: 64px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.banner-content .section-text {
+    max-width: 676px;
+}
+
+.find-now {
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.30);
+    padding: 16px;
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.find-now-input input,
+select {
+    color: rgba(19, 19, 24, 0.50);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 8px;
+    background: #FFF;
+    width: 174px;
+    padding: 16px;
 }
