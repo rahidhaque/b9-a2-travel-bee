@@ -179,6 +179,10 @@ select {
     margin-top: 32px;
 }
 
+.popular-tour-img img {
+    width: 100%;
+}
+
 /* choose destination styles  */
 .choose-destination h3 {
     text-align: center;
@@ -258,10 +262,105 @@ select {
     max-width: 486px;
 }
 
+
 .service {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     gap: 24px;
+}
+
+
+.card {
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background-color: rgba(233, 68, 68, 0.05);
+}
+
+.service .card:last-child {
+    justify-self: center;
+    grid-column: span 2;
+}
+
+
+/* newsletter section starts */
+
+.newsletter {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.newsletter-subscribe {
+    padding: 40px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    width: 474px;
+}
+
+.newsletter-title {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    padding-bottom: 16px;
+}
+
+.newsletter-subscribe .section-text {
+    padding-bottom: 24px;
+    max-width: 350px;
+}
+
+.line {
+    margin-bottom: 24px;
+}
+
+.newsletter-input input {
+    height: 52px;
+    width: 94%;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border: none;
+    padding: 16px;
+    color: rgba(19, 19, 24, 0.30);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+.newsletter-input button {
+    margin-top: 8px;
+    width: 100%;
+}
+
+.newsletter-img img {
+    border-radius: 16px;
+    width: 100%;
+    height: 100%;
+}
+
+.savings-badge {
+    border-radius: 16px;
+    background: #FF5400;
+    width: 324px;
+    transform: rotate(-19.628deg);
+    padding: 30px;
+    position: relative;
+    bottom: 190px;
+    left: 230px;
+}
+
+.savings-badge h3 {
+    margin: 0;
+    text-align: center;
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.savings-badge p {
+    margin: 0;
+    text-align: center;
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
 }
