@@ -81,6 +81,10 @@ nav>ul {
     font-weight: 400;
 }
 
+.hamburger{
+    display: none;
+}
+
 nav a {
     text-decoration: none;
 }
@@ -363,4 +367,20 @@ select {
     text-align: center;
     font-size: 24px;
     font-weight: 400;
+}
+
+
+/* mobile Styles  */
+@media screen and (max-width: 600px) {
+    .container{
+        max-width: 600px;
+    }
+
+    .nav>ul{
+        display: none;
+    }
+
+    .hamburger{
+        display: flex;
+    }
 }
