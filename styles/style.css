@@ -352,7 +352,7 @@ select {
     padding: 30px;
     position: relative;
     bottom: 190px;
-    left: 230px;
+    left: 180px;
 }
 
 .savings-badge h3 {
@@ -525,17 +525,10 @@ footer .section-text {
 
     .newsletter{
         grid-template-columns: repeat(1,1fr);
-    }
-
-    .newsletter-img img {
         width: 100%;
     }
 
-    .newsletter-subscribe {
-        width: 310px;
-        height: 400px;
-    }
-
+    
 
     .savings-badge {
         padding: 20px;
@@ -606,19 +599,10 @@ footer .section-text {
 
     .newsletter{
         grid-template-columns: repeat(1,1fr);
-    }
-
-    .newsletter-subscribe {
-        width: 310px;
-        height: 400px;
-    }
-
-    .newsletter-img img {
         width: 100%;
     }
 
-
-
+    
     .savings-badge {
         padding: 20px;
         bottom: 130px;
