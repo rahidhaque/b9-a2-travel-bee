@@ -23,6 +23,10 @@ section {
     margin-top: 100px;
 }
 
+a {
+    text-decoration: none;
+}
+
 .section-title {
     color: #131318;
     font-family: Mulish;
@@ -92,9 +96,7 @@ nav>ul {
     display: none;
 }
 
-nav a {
-    text-decoration: none;
-}
+
 
 
 nav img {
@@ -372,11 +374,15 @@ select {
 }
 
 /* extra section traveler's experiences */
-.traveler-experience .section-title{
+.traveler-experience .section-title {
     padding-bottom: 20px;
 }
 
-.testimonials{
+.traveler-experience .section-text {
+    padding-bottom: 20px;
+}
+
+.testimonials {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -415,6 +421,52 @@ select {
     color: #767E86;
     font-size: 14px;
     font-weight: 400;
+}
+
+
+/* footer styles  */
+footer {
+    margin-top: 165px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-footer-container {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+footer img {
+    width: 48px;
+    height: 56.008px;
+}
+
+footer .section-text {
+    max-width: 769px;
+    text-align: center;
+    padding-bottom: 33px;
+}
+
+.hr-line-footer {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.social-links a {
+    color: #131318;
+    padding: 0 15px;
+}
+
+.copyright {
+    margin-top: 50px;
+    color: #131318;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
 }
 
 /* mobile Styles  */
