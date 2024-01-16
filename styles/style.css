@@ -293,8 +293,8 @@ select {
 /* newsletter section starts */
 
 .newsletter {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
     gap: 24px;
 }
 
@@ -302,7 +302,6 @@ select {
     padding: 40px;
     border-radius: 16px;
     border: 1px solid #FF5400;
-    width: 474px;
 }
 
 .newsletter-title {
@@ -341,6 +340,8 @@ select {
 
 .newsletter-img img {
     border-radius: 16px;
+    width: 100%;
+    height: 100%;
 }
 
 .savings-badge {
@@ -480,7 +481,6 @@ footer .section-text {
     .find-now,
     .popular-tours,
     .destination-img,
-    .newsletter,
     .testimonials {
         flex-direction: column;
     }
@@ -523,16 +523,18 @@ footer .section-text {
         flex-direction: column;
     }
 
+    .newsletter{
+        grid-template-columns: repeat(1,1fr);
+    }
+
     .newsletter-img img {
-        width: 335px;
-        height: 300px;
+        width: 100%;
     }
 
     .newsletter-subscribe {
-        width: 300px;
+        width: 310px;
         height: 400px;
     }
-
 
 
     .savings-badge {
@@ -549,11 +551,6 @@ footer .section-text {
     .savings-badge p {
         font-size: 15.854px;
     }
-
-    .newsletter-subscribe {
-        width: 315px;
-    }
-
 }
 
 /* tablet styles  */
@@ -565,7 +562,6 @@ footer .section-text {
 
     .find-now,
     .destination-img,
-    .newsletter,
     .popular-tours,
     .testimonials {
         flex-direction: column;
@@ -608,15 +604,19 @@ footer .section-text {
         flex-direction: column;
     }
 
-    .newsletter-img img {
-        width: 335px;
-        height: 300px;
+    .newsletter{
+        grid-template-columns: repeat(1,1fr);
     }
 
     .newsletter-subscribe {
-        width: 300px;
+        width: 310px;
         height: 400px;
     }
+
+    .newsletter-img img {
+        width: 100%;
+    }
+
 
 
     .savings-badge {
@@ -632,9 +632,5 @@ footer .section-text {
 
     .savings-badge p {
         font-size: 15.854px;
-    }
-
-    .newsletter-subscribe {
-        width: 315px;
     }
 }
