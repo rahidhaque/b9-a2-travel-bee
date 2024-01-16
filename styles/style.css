@@ -525,15 +525,15 @@ footer .section-text {
 
     .newsletter{
         grid-template-columns: repeat(1,1fr);
-        width: 80%;
+        width: 90%;
     }
 
 
     .savings-badge {
-        padding: 15px;
-        bottom: 130px;
-        width: 100px;
-        left: 80px;
+        padding: 20px;
+        bottom: 140px;
+        width: 170px;
+        left: 40px;
     }
 
     .savings-badge h3 {
@@ -598,7 +598,7 @@ footer .section-text {
 
     .newsletter{
         grid-template-columns: repeat(1,1fr);
-        width: 80%;
+        width: 90%;
     }
 
     
@@ -606,7 +606,7 @@ footer .section-text {
         padding: 20px;
         bottom: 130px;
         width: 185px;
-        left: 80px;
+        left: 430px;
     }
 
     .savings-badge h3 {
