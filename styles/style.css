@@ -294,7 +294,7 @@ select {
 
 .newsletter {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 24px;
 }
 
@@ -351,8 +351,8 @@ select {
     transform: rotate(-19.628deg);
     padding: 30px;
     position: relative;
-    bottom: 190px;
-    left: 180px;
+    bottom: 200px;
+    left: 130px;
 }
 
 .savings-badge h3 {
@@ -523,8 +523,8 @@ footer .section-text {
         flex-direction: column;
     }
 
-    .newsletter{
-        grid-template-columns: repeat(1,1fr);
+    .newsletter {
+        grid-template-columns: repeat(1, 1fr);
         width: 90%;
     }
 
@@ -549,6 +549,7 @@ footer .section-text {
 
 @media screen and (min-width: 600px) and (max-width: 992px) {
     .container {
+        min-width: 600px;
         max-width: 992px;
     }
 
@@ -596,17 +597,17 @@ footer .section-text {
         flex-direction: column;
     }
 
-    .newsletter{
-        grid-template-columns: repeat(1,1fr);
+    .newsletter {
+        grid-template-columns: repeat(1, 1fr);
         width: 90%;
     }
 
-    
+
     .savings-badge {
         padding: 20px;
         bottom: 130px;
-        width: 185px;
-        left: 430px;
+        bottom: 150px;
+        left: 140px;
     }
 
     .savings-badge h3 {
